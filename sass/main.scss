@@ -1,0 +1,28 @@
+/*layout*/
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/basics";
+@import "./layout/classes";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/backdrop";
+@import "./layout/modal-window";
+@import "./layout/modal-form";
+
+/*base*/
+@import "./base/common";
+@import "./base/conteiner";
+
+/*utils*/
+@import "./utils/visually-hidden";
+
+/*components*/
+@import "./components/logo";
+@import "./components/contact-head";
+@import "./components/hero-btn";
+@import "./components/social";
+@import "./components/address";
+@import "./components/mailing";
+@import "./components/portfolio-filter";

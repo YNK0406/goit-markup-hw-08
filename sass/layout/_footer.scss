@@ -1,0 +1,30 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A;
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+        &__address {
+        margin-right: 70px;
+        }
+
+
+        &__social {
+        padding-top: 15px;
+        margin-right: 93px;
+        }
+            &__title {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #FFFFFF;
+            }
+        &__mailing{
+        padding-top: 15px;
+        }
+}

@@ -1,0 +1,27 @@
+.address {
+    margin-top: 20px;    
+
+    &__list {
+        font-style: normal;
+    }
+    &__item{
+        &:not(:last-child){
+            margin-bottom: 9px;
+        }
+    }
+    &__link {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+
+        &--map{
+             color: #FFFFFF;
+            }
+        &--contact { 
+              color: rgba(255, 255, 255, 0.6);
+          }
+    }   
+}
+
+
