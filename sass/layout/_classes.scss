@@ -1,4 +1,9 @@
-.activity {
+
+@media screen and (max-width:1199px) {
+    .activity {
+        display: none;
+    }
+}.activity {
     padding-top: 94px;
     padding-bottom: 94px;
 

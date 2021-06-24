@@ -1,27 +1,125 @@
 .hero {
-        max-width: 1600px;
+    width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 118px;
+        padding-bottom: 118px;
         background: #C4C4C4;
         background-size: cover;
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/hero.jpg);
+        url("../../images/mobile-hero.jpg");
     
             &__title {
                 font-weight: 900;
-                font-size: 44px;
-                line-height: 1.36;
+                font-size: 22px;
+                line-height: 1.65;
                 letter-spacing: 0.06em;
                 text-transform: uppercase;
                 margin-bottom: 30px;
                 text-align: center;
                 color: #FFFFFF;
             }
-            @media screen   {
-                
-            }  
+           
+            @media screen and (min-width: 768px){
+                .hero__title {
+                    font-size: 22px;
+                    line-height: 1.65;
+                }
+            }
+            @media screen and (min-width: 1200px){
+                .hero__title {
+                    font-size: 44px;
+                    line-height: 1.36;
+                }
+            }
+
+
+
         }
+@media (min-device-pixel-ratio: 2) and (min-width: 480px),
+(min-resolution: 192dpi) and (min-width: 480px),
+(min-resolution: 2dppx) and (min-width: 480px) { 
+     .hero {
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+         background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../../images/mobile-hero@2x.jpg") ;}           
+        }  
+
+@media screen and (min-width: 768px){
+    .hero {
+        width: 768px;
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),url("../../images/table-hero.jpg");
+    }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+(min-resolution: 192dpi) and (min-width: 768px),
+(min-resolution: 2dppx) and (min-width: 768px) { 
+     .hero {
+         width: 768px;
+         background-image:
+         linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../../images/tablet-hero@2x.jpg") ;}           
+        }  
+
+@media screen and (min-width: 1200px){
+    .hero {width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        max-width: 1600px;
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../../images/hero.jpg");
+    }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+(min-resolution: 192dpi) and (min-width: 1200px),
+(min-resolution: 2dppx) and (min-width: 1200px) { 
+     .hero {
+        width: 1600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+         background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../../images/hero@2x.jpg") ;}           
+        }  
+
+
+     /* .hero {
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            background: #C4C4C4;
+            background-size: cover;
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/hero.jpg);
+        
+                &__title {
+                    font-weight: 900;
+                    font-size: 44px;
+                    line-height: 1.36;
+                    letter-spacing: 0.06em;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+               
+            }*/

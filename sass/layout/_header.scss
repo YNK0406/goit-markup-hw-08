@@ -1,3 +1,6 @@
+
+
+/*
 .header {      
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC; 
@@ -8,6 +11,7 @@
         display: flex;
         align-items: center;
     }
+   
 }
 .header-cont {
     display: flex;
@@ -16,6 +20,13 @@
 
 }
 
+ .header__menu-btn {
+   border: none;
+}
+.header__menu-icon {
+    width: 48px;
+    height: 32px;
+}
 .menu {
     display: flex;
 
@@ -41,7 +52,7 @@
                  }
 
             &--active{
-            
+             
                 &::after {
                 position: absolute;
                 content:'';
@@ -62,5 +73,5 @@
             }  
         }
 } 
-
+*/
 
