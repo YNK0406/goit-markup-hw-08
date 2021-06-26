@@ -1,5 +1,12 @@
+@media screen and (max-width:1199px){
+    .activity {  display: none;    
+}}
+
+
+
+@media screen and (min-width: 1200px){
 .activity {
-    pagging-top: 94px;
+    // padding-top: 94px;
     padding-bottom: 94px;
 
     &__title {
@@ -43,4 +50,5 @@
         color: #FFFFFF;
         background-color: rgba(47, 48, 58, 0.8);
     }
+}
 }

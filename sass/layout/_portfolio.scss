@@ -1,15 +1,25 @@
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+@media screen and (min-width:1200px){
+    .portfolio{
+        padding-top: 94px;
+        padding-bottom: 94px;
 
+    }
+    
+}
 
 
 .work-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: -30px;
     margin-left: -30px;
+
+    
 
         &__item{
             flex-basis: calc((100% - 90px) / 3);  
@@ -76,4 +86,31 @@
             letter-spacing: 0.03em;
             color: #757575;
         }
-    }       
+    }     
+@media screen and (max-width:767px){
+    .work-list {
+        &__img{
+            width: 450px;
+            height: 294px;
+        }
+
+    }
+}  
+@media screen and (min-width:768px){
+    .work-list {
+        &__img{
+            width: 354px;
+            height: 294px;
+        }
+
+    }
+}  
+@media screen and (min-width:1200px){
+    .work-list {
+        &__img{
+            width: 370px;
+            height: 294px;
+        }
+
+    }
+}  

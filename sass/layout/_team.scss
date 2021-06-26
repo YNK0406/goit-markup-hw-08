@@ -1,13 +1,13 @@
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #F5F4FA;   
 
     &__title{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-weight: bold;
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 28px;
+        line-height: 0.64;
         text-align: center;
         letter-spacing: 0.03em;
         }
@@ -29,8 +29,8 @@
         padding-bottom: 30px;
          }
     &__img {
-        width: 270px;
-        height: 260px;
+        width: 450px;
+        height: 460px;
         }
     &__name {
         margin-bottom: 10px;
@@ -52,3 +52,34 @@
     
 }
 
+@media screen and (min-width: 768px){
+    .team { &__img {
+        width: 354px;
+        height: 374px;
+        }
+}
+}        
+
+
+
+@media screen and (min-width: 1200px){
+    .team {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        &__title{
+            margin-bottom: 50px;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: 0.03em;
+            }
+
+
+
+            &__img {
+                width: 270px;
+                height: 260px;
+                }
+        }
+    }        

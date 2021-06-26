@@ -5,26 +5,115 @@
 }
 .footer-container {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+        
         &__address {
-        margin-right: 70px;
+        text-align: center;
+        margin-bottom: 60px;
         }
 
 
-        &__social {
-        padding-top: 15px;
-        margin-right: 93px;
-        }
+            
             &__title {
             font-weight: bold;
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.03em;
+            text-align: center;
             text-transform: uppercase;
             margin-bottom: 20px;
             color: #FFFFFF;
             }
-        &__mailing{
-        padding-top: 15px;
-        }
+            &__mailing{
+            padding-top: 15px;
+            }
+        
 }
+@media screen and (max-width: 767px){
+    .footer-container {
+        flex-wrap: wrap;
+        &__mailing{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            
+            }     
+            &__social {
+                
+                
+                margin-bottom: 60px;
+                }      
+}
+}
+@media screen and (min-width: 768px){
+    .footer-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        // &__mailing{
+           
+        //     // padding-top: 15px;
+        // }
+        &__social {
+            padding-top: 5px;
+            }
+}
+
+
+
+}
+@media screen and (min-width: 1200px){
+     .footer-container{
+        display: flex;
+        justify-content: flex-start;
+        &__social {
+            margin-right: 93px;
+            padding-top: 15px;
+            
+            }
+
+                
+                 &__address {
+                text-align: left;
+                 margin-right:  70px;
+                 margin-bottom: 0;
+                 }
+                 &__title {
+                     text-align: left;
+                 }
+}}
+
+
+
+
+
+// .footer {
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+//     background: #2F303A;
+// }
+// .footer-container {
+//     display: flex;
+//     justify-content: flex-start;
+//         &__address {
+//         margin-right: 70px;
+//         }
+
+
+//         &__social {
+//         padding-top: 15px;
+//         margin-right: 93px;
+//         }
+//             &__title {
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 1.14;
+//             letter-spacing: 0.03em;
+//             text-transform: uppercase;
+//             margin-bottom: 20px;
+//             color: #FFFFFF;
+//             }
+//         &__mailing{
+//         padding-top: 15px;
+//         }
+// }

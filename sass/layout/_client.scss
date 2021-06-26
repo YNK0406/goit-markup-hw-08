@@ -1,11 +1,11 @@
 .client {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     &__title {
         font-weight: bold;
-        font-size: 36px;
-        line-height: 1.17;
+        font-size: 28px;
+        line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
         margin-bottom: 50px;
@@ -14,11 +14,16 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         }
 
     &__item {
-        width: 170px;
+        width: 210px;
         height: 92px;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
         }  
         
         &__link { 
@@ -57,5 +62,31 @@
         }
              
 }
+@media screen and (min-width: 768px){
+    .client {
+        &__item {
+            width: 226px;
+            height: 92px;
+            }  
 
+    }
+}
 
+@media screen and (min-width: 1200px){
+    .client {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        &__title {
+            font-size: 36px;
+            line-height: 1.17;
+            }
+            &__item {
+                width: 170px;
+                height: 92px;
+                &:not(:last-child) {
+                    margin-bottom: 0px;
+                }
+                }  
+
+        }
+}

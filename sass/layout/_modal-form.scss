@@ -84,8 +84,8 @@
 }
 &__policy{
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #757575;
     margin-bottom: 30px;
@@ -97,7 +97,7 @@
         height: 18px;
         border: 2px solid #212121;
         border-radius: 3px;
-        margin-left: 8.38px;
+      
         margin-right: 8.38px;
         vertical-align: middle;
     
@@ -115,8 +115,8 @@
 }
 &__link{
         font-weight: normal;
-        font-size: 14px;
-        line-height: 1.7;
+        font-size: 12px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-decoration-line: underline;
         color: #2196F3;
@@ -146,4 +146,21 @@
         background-color: #188CE8;}
 }
 }
+@media screen and (min-width:1200px){
+    .modal-form{
+    
+        &__policy{
+            font-size: 14px;
+            line-height: 1.7;
+           
+                &::before{
+                    
+                    margin-left: 8.38px;}
+        }
+        &__link {
+            font-size: 14px;
+            line-height: 1.7;
 
+        }
+    }    
+}
