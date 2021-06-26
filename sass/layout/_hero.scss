@@ -1,4 +1,6 @@
 .hero {
+   width: 100%;
+    // height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 118px;
@@ -26,11 +28,11 @@
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
     .hero { 
-        width: 480px;
+        // width: 480px;
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/mobile-hero.jpg);
+    url(../../images/mobile-hero.jpg);
 
         
 }}
@@ -41,17 +43,17 @@
     .hero { background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/mobile-hero@2x.jpg);}
+    url(../../images/mobile-hero@2x.jpg);}
 }
 @media screen and (min-width: 768px),
   (min-resolution: 192dpi) and (min-width: 768px),
   (min-resolution: 2dppx) and (min-width: 768px) {
     .hero { 
-        width: 768px;
+        // width: 768px;
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/table-hero.jpg);}}
+    url(../../images/table-hero.jpg);}}
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px),
   (min-resolution: 192dpi) and (min-width: 768px),
@@ -59,21 +61,21 @@
     .hero { background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/tablet-hero@2x.jpg);}
+    url(../../images/tablet-hero@2x.jpg);}
 }
 @media screen and (min-width: 1200px),
   (min-resolution: 192dpi) and (min-width: 1200px),
   (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero { 
-      margin-left: auto;
-    margin-right: auto; 
+    //   margin-left: auto;
+    // margin-right: auto; 
         padding-top: 200px;
         padding-bottom: 200px;
-        width: 1200px;
+        width: 1600px;
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
+    url(../../images/hero.jpg);
 
     &__title {
         
@@ -87,6 +89,6 @@
     .hero { background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/hero@2x.jpg);}
+    url(../../images/hero@2x.jpg);}
 }
 
