@@ -24,11 +24,10 @@
       }
 
     &__container {
-        position: relative;
+        position: absolute;
         padding-top: 48px;
         padding-bottom: 48px;
-        // display: flex;
-        // align-content: space-between ;
+        
     }
     &__list{
         margin-bottom: 302px;
