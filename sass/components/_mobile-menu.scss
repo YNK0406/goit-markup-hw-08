@@ -1,10 +1,12 @@
 // @media screen and (max-width: 767px) {
     .mobile-menu {
     position: fixed;
+    display: flex;
+    // align-content: space-between ;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 480px;
+    height: 796px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 
     0px 2px 4px rgba(95, 42, 42, 0.08),
@@ -25,7 +27,8 @@
         position: relative;
         padding-top: 48px;
         padding-bottom: 48px;
-        overflow:auto;
+        // display: flex;
+        // align-content: space-between ;
     }
     &__list{
         margin-bottom: 302px;
